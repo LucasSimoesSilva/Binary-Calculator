@@ -1,6 +1,9 @@
 package Calculator;
 
 public class BinaryCalculator {
+    public static void main(String[] args) {
+        System.out.println(decimalToBinary(10));
+    }
 
     public static StringBuilder decimalToBinary(int num) {
         StringBuilder binary = new StringBuilder();
